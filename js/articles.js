@@ -273,6 +273,105 @@ const articlesDB = [
     featured: true,
     views: 0,
     tags: ["acil durum fonu", "tasarruf", "finansal güvenlik", "birikim"]
+  },
+  {
+    id: 6,
+    title: "Temettü Emekliliği: Uyurken Para Kazanmanın Formülü",
+    slug: "temettu-emekliligi-uyurken-para-kazanmanin-formulu",
+    excerpt: "Warren Buffett: 'Eğer uyurken para kazanmanın bir yolunu bulamazsanız, ölene kadar çalışmak zorunda kalırsınız.' Temettü emekliliği ile pasif gelir nasıl oluşturulur?",
+    content: `
+      <p>Dünyanın en zengin yatırımcılarından Warren Buffett'ın efsanevi bir sözü vardır: <strong>"Eğer uyurken para kazanmanın bir yolunu bulamazsanız, ölene kadar çalışmak zorunda kalırsınız."</strong></p>
+      
+      <p>Çoğumuz için "emeklilik" kavramı; 60 veya 65 yaşına kadar beklemek, devletin belirlediği maaşa talim etmek ve hayatın sonbaharında dinlenmeye çekilmek demektir. Peki ya size, emekli olmak için saçlarınızın beyazlamasını beklemeniz gerekmediğini söylesek? Ya emekliliğin bir "yaş" değil, bir "nakit akışı" durumu olduğunu fark etseydiniz?</p>
+      
+      <p>İşte finans dünyasının en popüler ve en sağlam stratejilerinden biri olan <strong>Temettü Emekliliği (Dividend Growth Investing)</strong> tam olarak bunu vaat ediyor.</p>
+      
+      <h2>Temettü (Kâr Payı) Nedir?</h2>
+      <p>Borsada bir şirketin hissesini aldığınızda, o şirkete resmen ortak olursunuz. Bir şirket yıl sonunda kâr ettiğinde, yönetim kurulu bu kârın ne yapılacağına karar verir:</p>
+      <ul>
+        <li><strong>Büyüme Şirketleri:</strong> Kârı şirketi büyütmek için içeride tutarlar.</li>
+        <li><strong>Temettü Şirketleri:</strong> Kârın bir kısmını nakit olarak ortaklarına dağıtırlar.</li>
+      </ul>
+      <p>İşte hesabınıza yatan bu nakit paraya "temettü" denir. Siz hiçbir şey yapmasanız da, sadece o hisseyi elinizde tuttuğunuz için şirket çalışır, üretir, satar ve kazancını sizinle paylaşır.</p>
+      
+      <h2>Altın Yumurtlayan Kaz Stratejisi</h2>
+      <p>Borsadaki yatırımcıları ikiye ayırabiliriz:</p>
+      
+      <h3>1. Kazı Besleyip Büyütüp Satanlar (Al-Satçılar)</h3>
+      <p>Bir hisseyi 10 TL'den alır, 15 TL olunca satar. Kârı cebe atar ama "kazı" kaybetmiş olur. Tekrar kazanmak için yeni bir kaz bulmak zorundadırlar. Sürekli ekran takibi ve stres gerektirir.</p>
+      
+      <h3>2. Yumurtaları Toplayanlar (Temettü Yatırımcıları)</h3>
+      <p>Bu kişiler kazın fiyatının 15 TL veya 8 TL olmasıyla ilgilenmezler. Onların tek derdi şudur: "Bu kaz bana her yıl kaç tane altın yumurta veriyor?" Kazı asla kesmezler (hisse satmazlar), sadece yumurtaları toplarlar.</p>
+      
+      <p><strong>Temettü emekliliği, portföyünüzdeki "kaz" sayısını, yumurtaların (temettülerin) tüm yıllık giderlerinizi karşılayacağı seviyeye kadar artırma sanatıdır.</strong></p>
+      
+      <h2>Bileşik Getirinin Motoru: Temettüyü Geri Yatırmak</h2>
+      <p>Bir şirketten temettü aldığınızda önünüzde iki seçenek vardır:</p>
+      <ul>
+        <li><strong>Seçenek A:</strong> Parayı çekip güzel bir akşam yemeği yersiniz. (Kısa vadeli haz)</li>
+        <li><strong>Seçenek B:</strong> Gelen parayla, cebinizden 1 kuruş çıkmadan aynı hisseden biraz daha alırsınız. (Servet inşası)</li>
+      </ul>
+      
+      <p>Seçenek B'yi uyguladığınızda sihir başlar:</p>
+      <ul>
+        <li>Hisse sayınız artar.</li>
+        <li>Seneye şirket tekrar temettü verdiğinde, artık daha fazla hisseniz olduğu için daha fazla temettü alırsınız.</li>
+        <li>O daha fazla temettüyle, daha da fazla hisse alırsınız.</li>
+        <li>Bir noktadan sonra kartopu o kadar büyür ki, "temettü geliriniz" maaşınızla yarışmaya başlar.</li>
+      </ul>
+      
+      <h2>Doğru Temettü Şirketini Nasıl Seçersiniz?</h2>
+      <p>Her temettü veren şirket, iyi bir yatırım değildir. Sağlam bir temettü portföyü için şu 3 kriter hayati önem taşır:</p>
+      
+      <h3>1. Temettü Verimi (Dividend Yield)</h3>
+      <p>Hisse fiyatına oranla ne kadar ödeme yapıldığıdır.</p>
+      <p><em>Örnek: Hisse fiyatı 100 TL, verdiği temettü 5 TL ise verim %5'tir.</em></p>
+      <p><strong>Dikkat:</strong> Çok yüksek verim (%15-20 gibi) her zaman iyi değildir, sürdürülebilir olmayabilir.</p>
+      
+      <h3>2. Temettü Büyümesi (Dividend Growth)</h3>
+      <p>En kritik maddedir. Aldığınız temettü miktarı her yıl enflasyonun üzerinde artmalıdır. Geçen yıl hisse başı 1 TL veren şirket, bu yıl 1.5 TL, seneye 2.5 TL veriyorsa harikadır. <em>Maaşınıza her yıl %50 zam yapan bir patron hayal edin; işte temettü büyümesi budur.</em></p>
+      
+      <h3>3. Temettü Dağıtma Alışkanlığı</h3>
+      <p>Şirket "bir yıl verip, iki yıl vermemezlik" yapıyor mu? Yoksa son 10 yıldır aralıksız, tıkır tıkır ödüyor mu? İstikrar, temettü emeklisinin en iyi dostudur. Türkiye'de (BIST) Ereğli Demir Çelik, Ford Otosan, Tüpraş, Tofaş gibi şirketler geleneksel olarak bu kültüre sahiptir.</p>
+      
+      <h2>Bir Simülasyon: Hayalden Gerçeğe</h2>
+      <p>Gelin basit bir hesap yapalım:</p>
+      <ul>
+        <li><strong>Hedef:</strong> Ayda 20.000 TL (Yılda 240.000 TL) pasif gelir elde etmek.</li>
+        <li><strong>Varsayım:</strong> Ortalama %6 Temettü Verimi ile çalışan bir portföy.</li>
+      </ul>
+      <p>Yılda 240.000 TL temettü almak için, %6 verimle çalışan <strong>4 Milyon TL'lik</strong> bir portföye ihtiyacınız var. (Hesap: 4.000.000 x 0.06 = 240.000 TL)</p>
+      
+      <p>"4 Milyon TL'yi nasıl biriktireceğim?" diye korkmayın. Eğer her ay maaşınızdan arttırdığınızla hisse alır VE gelen temettüleri de tekrar hisseye çevirirseniz, bileşik getiri sayesinde bu rakama ulaşmak sandığınızdan çok daha kısa sürer (Örneğin 10-12 yıl gibi).</p>
+      
+      <h2>Temettü Emekliliğinin Psikolojik Avantajı</h2>
+      <p>Borsa düşerken (%20, %30 çakılmalarda) çoğu yatırımcı panikleyip satar. Ancak temettü yatırımcısı sevinir. Neden mi?</p>
+      
+      <p>Çünkü temettü yatırımcısı hisse fiyatına değil, lot sayısına odaklanır. Fiyatlar düştüğünde, elindeki nakitle veya gelen temettüyle daha ucuza daha fazla hisse (lot) alabileceğini bilir.</p>
+      
+      <p><em>Düşünce yapısı şöyledir: "Markette her zaman aldığım makarna %30 indirime girmiş, üzülmemeli, aksine stok yapmalıyım!"</em></p>
+      
+      <h2>Dezavantajları Var mı?</h2>
+      <ul>
+        <li><strong>Sabır Gerektirir:</strong> İlk yıllarda gelen temettü, bir çay parasını bile zor karşılar. Meyveleri toplamak için ağacın büyümesini (en az 5 yıl) beklemelisiniz.</li>
+        <li><strong>Vergi:</strong> Türkiye'de şirketler temettü dağıtırken devlet otomatik olarak %15 Stopaj vergisi keser. Yani brüt 100 TL'nin 85 TL'si hesabınıza yatar.</li>
+      </ul>
+      
+      <h2>Sonuç: Kendi Emeklilik Fonunuzu Yönetin</h2>
+      <p>Devletin emeklilik sistemi bir güvencedir, ancak lüks bir yaşam vaat etmez. Temettü emekliliği ise dizginleri elinize almanızı sağlar.</p>
+      
+      <p>Bugün alacağınız 1 lot hisse, gelecekteki özgürlüğünüzün bir tuğlasıdır. Başlangıçta o tuğlalarla sadece küçük bir duvar örersiniz. Ancak sabırla devam ederseniz, gün gelir o duvar sizi hayatın tüm fırtınalarından (işsizlik, ekonomik krizler, düşük emekli maaşı) koruyan devasa bir kaleye dönüşür.</p>
+      
+      <p><strong>Unutmayın; en iyi temettü portföyü, yıllar önce kurulmuş olandır. İkinci en iyisi ise, bugün kuracağınızdır.</strong></p>
+    `,
+    category: "Finans",
+    author: "Para Yönetimi",
+    date: "2026-01-10",
+    readTime: "14 dk",
+    image: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&h=450&fit=crop",
+    featured: true,
+    views: 0,
+    tags: ["temettü", "pasif gelir", "emeklilik", "yatırım"]
   }
 ];
 
