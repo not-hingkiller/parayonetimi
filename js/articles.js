@@ -103,6 +103,69 @@ const articlesDB = [
         featured: false,
         views: 0,
         tags: ["bütçe", "para yönetimi", "tasarruf", "50/30/20"]
+    },
+    {
+        id: 3,
+        title: "Bileşik Getiri: Dünyanın 8. Harikası ve Servet İnşasının Sırrı",
+        slug: "bilesik-getiri-dunyanin-8-harikasi",
+        excerpt: "Albert Einstein'a atfedilen meşhur bir söz vardır: 'Bileşik faiz, dünyanın 8. harikasıdır. Onu anlayan kazanır, anlamayan ise bedelini öder.'",
+        content: `
+      <p>Albert Einstein'a atfedilen meşhur bir söz vardır: "Bileşik faiz (getiri), dünyanın 8. harikasıdır. Onu anlayan kazanır, anlamayan ise bedelini öder."</p>
+      
+      <p>Çoğu insan zengin olmanın yolunun piyangoyu tutturmaktan, çok büyük bir miras kalmasından veya bir anda parlayan dahiyane bir iş fikrinden geçtiğini sanır. Oysa gerçek servet, genellikle sıkıcı görünen, yavaş ilerleyen ama matematiksel kesinliği olan bir sürecin ürünüdür. Bu sürecin motoru ise Bileşik Getiri'dir.</p>
+      
+      <h2>Basit ve Bileşik Arasındaki Devasa Fark</h2>
+      <p>Bileşik getiriyi anlamak için önce onun zıttı olan "Basit Getiri"ye bakmak gerekir.</p>
+      
+      <ul>
+        <li><strong>Basit Getiri:</strong> Sadece koyduğunuz anapara üzerinden kazanç sağlarsınız.</li>
+        <li><strong>Bileşik Getiri:</strong> Anaparanızın getiri sağlaması, sonra o getirinin de tekrar getiri sağlaması...</li>
+      </ul>
+      
+      <h2>Sayılarla Bir Örnek</h2>
+      <p>Cebinizde 10.000 TL var ve yıllık %10 getiri elde ediyorsunuz.</p>
+      
+      <p><strong>Basit Getiri:</strong> Her yıl 1.000 TL kazanırsınız. 20 yıl sonra toplam 30.000 TL'niz olur.</p>
+      
+      <p><strong>Bileşik Getiri:</strong> 20 yılın sonunda paranız 67.275 TL olur.</p>
+      
+      <p>Gördünüz mü? Anapara aynı, oran aynı, süre aynı. Ancak sırf kazanılan parayı çekmeyip sisteme dahil ettiğiniz için, paranız iki katından fazla değerlendi.</p>
+      
+      <h2>Zamanın Gücü: Erken Başlamak Neden Önemlidir?</h2>
+      <p>Bileşik getirinin en iyi dostu "para" değil, <strong>"zaman"</strong>dır. Küçük parayla erken başlamak, büyük parayla geç başlamaktan neredeyse her zaman daha iyidir.</p>
+      
+      <h2>72 Kuralı: Kafadan Hesaplama</h2>
+      <p>Paranızın ne zaman ikiye katlanacağını merak ediyorsanız:</p>
+      
+      <p><strong>Formül:</strong> 72 / Yıllık Getiri Oranı = Paranın İkiye Katlanma Süresi (Yıl)</p>
+      
+      <p>Örneğin paranızı yıllık %10 getiri sağlayan bir fona yatırdınız: 72 / 10 = 7,2 Yıl</p>
+      
+      <h2>Borsada Bileşik Getiri</h2>
+      <p>Bileşik getirinin en iyi çalıştığı yerlerden biri Hisse Senedi Piyasası'dır. Temettü (kâr payı) ile çalışır:</p>
+      
+      <ul>
+        <li>Şirket size temettü yatırır</li>
+        <li>O parayla tekrar hisse alırsınız</li>
+        <li>Seneye daha fazla hisseniz olduğu için daha fazla temettü alırsınız</li>
+        <li>Bu döngü servetinizi katlar</li>
+      </ul>
+      
+      <h2>Sonuç: Bugün Bir Fidan Dik</h2>
+      <p>Eski bir Çin atasözü der ki: "Bir ağaç dikmek için en iyi zaman 20 yıl önceydi. İkinci en iyi zaman ise bugündür."</p>
+      
+      <p>Belki 20 yaşında başlamadınız, belki şu an 30, 40 hatta 50 yaşındasınız. Hiç fark etmez. Bileşik getiri makinesini çalıştırmak için hiçbir zaman geç kalmış sayılmazsınız.</p>
+      
+      <p>Unutmayın; küçük damlalar sadece göl olmaz, doğru yönetilirse okyanus olur. Finansal özgürlüğünüz, o ilk kartopunu bugün yuvarlamanıza bağlı.</p>
+    `,
+        category: "Finans",
+        author: "Para Yönetimi",
+        date: "2026-01-09",
+        readTime: "10 dk",
+        image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=450&fit=crop",
+        featured: true,
+        views: 0,
+        tags: ["bileşik getiri", "yatırım", "finans", "servet"]
     }
 ];
 
