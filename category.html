@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kategori sayfası">
+    <meta name="keywords" content="blog, kategori">
+    <meta name="author" content="Blog Platform">
+
+    <title>Kategori - Blog Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">📝 Blog</a>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Ana Sayfa</a>
+                <a href="about.html" class="nav-link">Hakkında</a>
+                <a href="#" class="nav-link">İletişim</a>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Menü">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- AdSense Banner - Top -->
+    <div class="container">
+        <div class="ad-zone ad-banner">
+            AdSense Banner 728x90
+        </div>
+    </div>
+
+    <!-- Category Header -->
+    <section class="hero" style="padding: 2rem 0;">
+        <div class="container">
+            <div style="text-align: center;">
+                <h1 class="text-gradient" id="category-title">Kategori</h1>
+                <p style="color: var(--color-text-secondary); font-size: 1.125rem;">Bu kategorideki tüm makaleleri
+                    keşfedin</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="main-layout">
+            <!-- Articles Grid -->
+            <div class="content-area">
+                <section class="articles-grid" id="category-articles">
+                    <!-- Articles will be loaded by JavaScript -->
+                    <div class="loading" style="grid-column: 1/-1; text-align: center; padding: 3rem;">
+                        <i class="fas fa-spinner fa-spin"
+                            style="font-size: 3rem; color: var(--color-accent-purple);"></i>
+                        <p style="margin-top: 1rem; color: var(--color-text-secondary);">Makaleler yükleniyor...</p>
+                    </div>
+                </section>
+
+                <!-- AdSense In-Content -->
+                <div class="ad-zone ad-incontent">
+                    AdSense In-Content Ad (Responsive)
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- AdSense Sidebar - Medium Rectangle -->
+                <div class="ad-zone ad-sidebar-medium ad-sticky">
+                    AdSense Sidebar 300x250
+                </div>
+
+                <!-- Popular Articles Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">🔥 Popüler Makaleler</h3>
+                    <ul class="widget-list" id="popular-articles">
+                        <!-- Will be loaded by JavaScript -->
+                    </ul>
+                </div>
+
+                <!-- Categories Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">📂 Kategoriler</h3>
+                    <ul class="widget-list" id="categories-list">
+                        <!-- Will be loaded by JavaScript -->
+                    </ul>
+                </div>
+
+                <!-- Recent Articles Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">🕒 Son Makaleler</h3>
+                    <ul class="widget-list" id="recent-articles">
+                        <!-- Will be loaded by JavaScript -->
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- AdSense Footer Banner -->
+            <div class="ad-zone ad-footer">
+                AdSense Footer Banner 728x90
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>📝 Blog Platform</h3>
+                    <p>Her konuda kaliteli içerikler sunan modern blog platformu.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="about.html">Hakkında</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Kategoriler</h3>
+                    <ul>
+                        <li><a href="category.html?category=Teknoloji">Teknoloji</a></li>
+                        <li><a href="category.html?category=Sağlık">Sağlık</a></li>
+                        <li><a href="category.html?category=Yaşam">Yaşam</a></li>
+                        <li><a href="category.html?category=Yemek">Yemek</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>İletişim</h3>
+                    <p><i class="fas fa-envelope"></i> info@blog.com</p>
+                    <p><i class="fas fa-phone"></i> +90 (555) 123 45 67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Blog Platform. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/articles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

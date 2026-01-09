@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Makale detayı">
+    <meta name="keywords" content="blog, makale">
+    <meta name="author" content="Blog Platform">
+
+    <title>Makale - Blog Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">📝 Blog</a>
+
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Ana Sayfa</a>
+                <a href="about.html" class="nav-link">Hakkında</a>
+                <a href="#" class="nav-link">İletişim</a>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Menü">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- AdSense Banner - Top -->
+    <div class="container">
+        <div class="ad-zone ad-banner">
+            AdSense Banner 728x90
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="main-layout">
+            <!-- Article Content -->
+            <article class="content-area">
+                <!-- Article Header -->
+                <header class="article-header" id="article-header">
+                    <!-- Will be loaded by JavaScript -->
+                </header>
+
+                <!-- Featured Image -->
+                <div class="article-featured-image" id="article-featured-image">
+                    <!-- Will be loaded by JavaScript -->
+                </div>
+
+                <!-- Article Content -->
+                <div class="article-content" id="article-content">
+                    <!-- Will be loaded by JavaScript -->
+                </div>
+
+                <!-- AdSense In-Content -->
+                <div class="ad-zone ad-incontent">
+                    AdSense In-Content Ad (Responsive)
+                </div>
+
+                <!-- Article Tags -->
+                <div style="margin: 2rem 0; max-width: 720px;">
+                    <h3 style="margin-bottom: 1rem;">🏷️ Etiketler</h3>
+                    <div id="article-tags">
+                        <!-- Will be loaded by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Social Sharing -->
+                <div
+                    style="margin: 2rem 0; padding: 1.5rem; background: var(--color-bg-secondary); border-radius: var(--radius-lg); max-width: 720px;">
+                    <h3 style="margin-bottom: 1rem;">📤 Bu Makaleyi Paylaş</h3>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn btn-secondary" data-share="facebook">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </button>
+                        <button class="btn btn-secondary" data-share="twitter">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </button>
+                        <button class="btn btn-secondary" data-share="linkedin">
+                            <i class="fab fa-linkedin-in"></i> LinkedIn
+                        </button>
+                        <button class="btn btn-secondary" data-share="whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Related Articles -->
+                <section style="margin-top: 3rem;">
+                    <h2 class="text-gradient" style="margin-bottom: 2rem;">İlgili Makaleler</h2>
+                    <div class="articles-grid" id="related-articles">
+                        <!-- Will be loaded by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- AdSense In-Content Bottom -->
+                <div class="ad-zone ad-incontent">
+                    AdSense In-Content Ad (Responsive)
+                </div>
+            </article>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- AdSense Sidebar - Medium Rectangle -->
+                <div class="ad-zone ad-sidebar-medium ad-sticky">
+                    AdSense Sidebar 300x250
+                </div>
+
+                <!-- Popular Articles Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">🔥 Popüler Makaleler</h3>
+                    <ul class="widget-list" id="popular-articles">
+                        <!-- Will be loaded by JavaScript -->
+                    </ul>
+                </div>
+
+                <!-- Categories Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">📂 Kategoriler</h3>
+                    <ul class="widget-list" id="categories-list">
+                        <!-- Will be loaded by JavaScript -->
+                    </ul>
+                </div>
+
+                <!-- Recent Articles Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">🕒 Son Makaleler</h3>
+                    <ul class="widget-list" id="recent-articles">
+                        <!-- Will be loaded by JavaScript -->
+                    </ul>
+                </div>
+
+                <!-- Newsletter Widget -->
+                <div class="widget">
+                    <h3 class="widget-title">📬 Bülten</h3>
+                    <p style="font-size: 0.875rem; color: var(--color-text-tertiary); margin-bottom: 1rem;">Yeni
+                        makalelerden haberdar olun!</p>
+                    <form id="newsletter-form" style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <input type="email" class="newsletter-input" placeholder="E-posta" required
+                            style="width: 100%;">
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Abone Ol</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- AdSense Footer Banner -->
+            <div class="ad-zone ad-footer">
+                AdSense Footer Banner 728x90
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>📝 Blog Platform</h3>
+                    <p>Her konuda kaliteli içerikler sunan modern blog platformu.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="about.html">Hakkında</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Kategoriler</h3>
+                    <ul>
+                        <li><a href="category.html?category=Teknoloji">Teknoloji</a></li>
+                        <li><a href="category.html?category=Sağlık">Sağlık</a></li>
+                        <li><a href="category.html?category=Yaşam">Yaşam</a></li>
+                        <li><a href="category.html?category=Yemek">Yemek</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>İletişim</h3>
+                    <p><i class="fas fa-envelope"></i> info@blog.com</p>
+                    <p><i class="fas fa-phone"></i> +90 (555) 123 45 67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2026</span> Blog Platform. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/articles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

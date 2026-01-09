@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Finans, günlük yaşam, teknoloji ve kitap önerileri konularında kaliteli içerikler. Para yönetimi, yaşam tarzı, teknoloji haberleri ve kitap incelemeleri.">
+  <meta name="keywords" content="para yönetimi, finans, günlük yaşam, teknoloji, kitap önerileri, blog, yaşam tarzı">
+  <meta name="author" content="Blog Platform">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Para Yönetimi - Akıllı Yatırım Rehberi">
+  <meta property="og:description"
+    content="Finans, günlük yaşam, teknoloji ve kitap önerileri hakkında kaliteli içerikler">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Para Yönetimi - Akıllı Yatırım Rehberi">
+
+  <title>Para Yönetimi - Akıllı Yatırım ve Finans Rehberi</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💰</text></svg>">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">💰 Para Yönetimi</a>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Ana Sayfa</a>
+        <a href="about.html" class="nav-link">Hakkında</a>
+        <a href="#" class="nav-link">İletişim</a>
+      </nav>
+
+      <button class="mobile-menu-toggle" aria-label="Menü">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- AdSense Banner - Top -->
+  <div class="container">
+    <div class="ad-zone ad-banner">
+      AdSense Banner 728x90
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-featured">
+        <div class="hero-text">
+          <h1>Her Konuda Kaliteli İçerik</h1>
+          <p>Finans, günlük yaşam, teknoloji, kitap önerileri ve daha fazlası hakkında ilgi çekici makaleler keşfedin.
+          </p>
+          <a href="#articles" class="btn btn-primary">
+            <i class="fas fa-book-open"></i>
+            Makaleleri Keşfet
+          </a>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=450&fit=crop" alt="Blog Hero"
+            loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="main-layout">
+      <!-- Content Area -->
+      <div class="content-area">
+        <!-- Search & Filters -->
+        <section class="search-section" id="articles">
+          <div class="search-bar">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="search-input" class="search-input" placeholder="Makale ara..."
+              aria-label="Makale ara">
+          </div>
+
+          <div class="category-filters" id="category-filters">
+            <!-- Categories will be loaded by JavaScript -->
+          </div>
+        </section>
+
+        <!-- Articles Grid -->
+        <section class="articles-grid" id="articles-container">
+          <!-- Articles will be loaded by JavaScript -->
+          <div class="loading" style="grid-column: 1/-1; text-align: center; padding: 3rem;">
+            <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: var(--color-accent-purple);"></i>
+            <p style="margin-top: 1rem; color: var(--color-text-secondary);">Makaleler yükleniyor...</p>
+          </div>
+        </section>
+
+        <!-- AdSense In-Content -->
+        <div class="ad-zone ad-incontent">
+          AdSense In-Content Ad (Responsive)
+        </div>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+          <h3>📬 Bültene Abone Olun</h3>
+          <p>Yeni makalelerden haberdar olmak için e-posta adresinizi girin.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="E-posta adresiniz" required
+              aria-label="E-posta adresi">
+            <button type="submit" class="btn btn-primary">Abone Ol</button>
+          </form>
+        </section>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <!-- AdSense Sidebar - Medium Rectangle -->
+        <div class="ad-zone ad-sidebar-medium ad-sticky">
+          AdSense Sidebar 300x250
+        </div>
+
+        <!-- Popular Articles Widget -->
+        <div class="widget">
+          <h3 class="widget-title">🔥 Popüler Makaleler</h3>
+          <ul class="widget-list" id="popular-articles">
+            <!-- Will be loaded by JavaScript -->
+          </ul>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="widget">
+          <h3 class="widget-title">📂 Kategoriler</h3>
+          <ul class="widget-list" id="categories-list">
+            <!-- Will be loaded by JavaScript -->
+          </ul>
+        </div>
+
+        <!-- Recent Articles Widget -->
+        <div class="widget">
+          <h3 class="widget-title">🕒 Son Makaleler</h3>
+          <ul class="widget-list" id="recent-articles">
+            <!-- Will be loaded by JavaScript -->
+          </ul>
+        </div>
+
+        <!-- AdSense Sidebar - Half Page (Desktop only) -->
+        <div class="ad-zone ad-sidebar-large" style="display: none;">
+          AdSense Sidebar 300x600
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <!-- AdSense Footer Banner -->
+      <div class="ad-zone ad-footer">
+        AdSense Footer Banner 728x90
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>💰 Para Yönetimi</h3>
+          <p>Finans, günlük yaşam, teknoloji ve kitap önerileri konularında kaliteli içerikler sunan platform. Bilgi
+            dolu içeriklerle yanınızdayız.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Hızlı Bağlantılar</h3>
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="about.html">Hakkında</a></li>
+            <li><a href="#">İletişim</a></li>
+            <li><a href="#">Gizlilik Politikası</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Kategoriler</h3>
+          <ul>
+            <li><a href="category.html?category=Finans">Finans</a></li>
+            <li><a href="category.html?category=Günlük Yaşam">Günlük Yaşam</a></li>
+            <li><a href="category.html?category=Teknoloji">Teknoloji</a></li>
+            <li><a href="category.html?category=Kitap Önerileri">Kitap Önerileri</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Para Yönetimi. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./js/articles.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
